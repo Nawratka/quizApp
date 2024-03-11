@@ -42,9 +42,16 @@ body {
 	border: 10px solid rgb(67, 150, 245);
 }
 
+.start-board {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
 .title {
 	font-size: 3rem;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .btn {
@@ -67,6 +74,10 @@ body {
 .btn:hover {
 	background-color: #b3b3b3;
 	box-shadow: 3px 3px 7px rgb(105, 105, 105);
+}
+
+#startBtn {
+	align-self: center;
 }
 
 .game-board {
@@ -143,7 +154,8 @@ body {
 // CLASSES USEFUL FOR MANIPULATE GAME
 /////////////////////////////////////////////////
 .hidden {
-	display: none;
+	// display: none;
+	visibility: hidden;
 }
 
 .bad-bg {

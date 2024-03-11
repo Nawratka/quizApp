@@ -56,9 +56,24 @@ body {
   border: 10px solid rgb(67, 150, 245);
 }
 
+.start-board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 .title {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -86,6 +101,11 @@ body {
   background-color: #b3b3b3;
   -webkit-box-shadow: 3px 3px 7px rgb(105, 105, 105);
           box-shadow: 3px 3px 7px rgb(105, 105, 105);
+}
+
+#startBtn {
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .game-board {
@@ -191,7 +211,7 @@ body {
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .bad-bg {
