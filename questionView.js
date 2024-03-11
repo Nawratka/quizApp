@@ -1,3 +1,6 @@
+import { state } from "./script.js";
+import { questionsArr } from "./questions.js";
+
 const answersBox = document.querySelector('.answers')
 
 class QuestionView {
@@ -11,7 +14,7 @@ class QuestionView {
     generateMarkup() {
         return `
         <div class="game-board">
-            <p class="question-number">Question nr 1</p>
+            <p class="question-number">Question nr ${state.counter}</p>
             <p class="question">What is the result of 2 * 4 ?</p>
             <div class="answers">
                 <div class="answer" data-type="A">2</div>
