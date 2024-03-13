@@ -1,6 +1,6 @@
 export const questionsArr = [
 	{
-		question: 'Mickey Mouse was originally named what? Mortimer Mouse',
+		question: 'Mickey Mouse was originally named what?',
 		rightAnswer: 'Mortimer Mouse',
 		answers: ['Mortimer Mouse', 'Michael Mouse', 'Tonny Mouse', 'Willy Mouse'],
 	},	{
